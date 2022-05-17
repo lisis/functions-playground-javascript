@@ -14,9 +14,10 @@ console.log("Me he convertido en un: " + typeof(soyUnNumero))
 // Dicha variable tiene una función, de nombre 'log'
 // La función tiene uno o varios parámetros de entrada.
 // En el ejemplo, le pasamos UN parámetro a la función. El VALOR de la variable 'myText'
+
 let myText = 'Hola! Hola!';
 console.log(myText);
 
 // No solo eso. JavaScript define muchas funciones en "variables" globales para poder usar.
 let numeroAleatorio = Math.random()
-console.log("Número aleatorio entre 0 y 1")
+console.log("Número aleatorio entre 0 y 1", numeroAleatorio);

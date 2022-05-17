@@ -9,6 +9,8 @@ muestraPorConsola()
 
 //Sin embargo, la gracia de las funciones es poder parametrizarlas. Es decir, que hagan algo diferente en función de la información que le suministras
 
+// Es muy importante entender lo siguiente: como norma general, lo que sucede en una función, queda dentro de una función. Es decir, 'mensaje' no es accesible desde fuera de la función.
+
 function muestraPorConsola_v2(mensaje) {
     console.log(mensaje)
 }
