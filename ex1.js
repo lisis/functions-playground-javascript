@@ -3,7 +3,8 @@
  */
 
  function muestraGato() {
-    console.log("Gato!")
+    
  }
 
+ console.log("Gato!")
  // Aquí tú código

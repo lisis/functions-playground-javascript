@@ -6,13 +6,14 @@
  * Sabemos que para recorrer 1km, necesita 0.5 litros de agua.
  * 
  * Implementa una función que devuelva un numero real con la cantidad de litros de agua que necesita el ciclista para recorrer 'km' kilómetros.
- * La función está casi completa  pero hay que modificar la línea 13.
+ * La función está casi completa  pero hay que modificar la línea 14.
  * 
  */
 
  function agua_necesaria(km) {
-    let agua = 1;
+    let agua = km/2;
     return agua;
+
  }
 
  let agua = agua_necesaria(5);
